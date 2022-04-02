@@ -47,13 +47,12 @@ def generate_accounts(amount: int, base_name: str, password: str):
 
             username_field = driver.find_element(By.ID, "regUsername")
 
-            names.append(base_name + str(i))
             username_field.send_keys(base_name + str(i))
 
             password_field = driver.find_element(By.ID, "regPassword")
             password_field.send_keys(password)
 
             WebDriverWait(driver, 360).until(EC.presence_of_element_located((By.ID, "SearchDropdown")))
-            driver.close()
+            driver.quit()
     finally:
         return names

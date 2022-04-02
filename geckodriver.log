@@ -47,3 +47,46 @@ DevTools listening on ws://localhost:63567/devtools/browser/16c70530-8bb0-4814-a
 1648940970460	Marionette	INFO	Stopped listening on port 63572
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648941552908	geckodriver	INFO	Listening on 127.0.0.1:59005
+1648941555953	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59006" "-no-remote" "-profile" "C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileHoJCM9"
+1648941556142	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileHoJCM9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59006/devtools/browser/4f0293cf-38f7-4f6d-a24b-d2a81f0fbc9a
+1648941557699	Marionette	INFO	Listening on port 59011
+1648941557999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648941558000	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","socksProxy":"127.0.0.1:9050","socksVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.reddit.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.reddit.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1648941605087	Marionette	INFO	Stopped listening on port 59011
+1648941606763	geckodriver	INFO	Listening on 127.0.0.1:59113
+1648941609804	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59114" "-no-remote" "-profile" "C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileAt1Hxr"
+1648941609995	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileAt1Hxr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59114/devtools/browser/4283bd8b-fdb3-4c35-9bf9-ed72d43ca2a9
+1648941611635	Marionette	INFO	Listening on port 59119
+1648941611840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648941611841	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","socksProxy":"127.0.0.1:9050","socksVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+1648941616173	Marionette	INFO	Stopped listening on port 59119
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1648941683172	geckodriver	INFO	Listening on 127.0.0.1:59176
+1648941686211	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59177" "-no-remote" "-profile" "C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileYQla8i"
+1648941686400	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileYQla8i\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59177/devtools/browser/745524f3-fbcb-4f14-86e8-73c9a37d952b
+1648941687992	Marionette	INFO	Listening on port 59184
+1648941688248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648941688248	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","socksProxy":"127.0.0.1:9050","socksVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.reddit.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.reddit.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1648941742661	Marionette	INFO	Stopped listening on port 59184
+[Parent 20428, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 20428, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
