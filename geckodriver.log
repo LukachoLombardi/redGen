@@ -90,3 +90,133 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 1648941742661	Marionette	INFO	Stopped listening on port 59184
 [Parent 20428, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
 [Parent 20428, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1649104921258	geckodriver	INFO	Listening on 127.0.0.1:54304
+1649104924296	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54305" "-no-remote" "-profile" "C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofilezFFgkY"
+1649104924506	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofilezFFgkY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54305/devtools/browser/019aec85-307e-4f41-bf2d-367705679bf2
+1649104926137	Marionette	INFO	Listening on port 54340
+1649104926336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649104926337	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","socksProxy":"127.0.0.1:9050","socksVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+1649104939621	Marionette	INFO	Stopped listening on port 54340
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1649104954219	geckodriver	INFO	Listening on 127.0.0.1:54714
+1649104957252	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54715" "-no-remote" "-profile" "C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileLlHbTp"
+1649104957511	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileLlHbTp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54715/devtools/browser/5c448ab8-78d2-4d8b-a454-de2c46715d04
+1649104959165	Marionette	INFO	Listening on port 54756
+1649104959306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649104959306	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","socksProxy":"127.0.0.1:9050","socksVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1649104976074	Marionette	INFO	Stopped listening on port 54756
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649105019180	geckodriver	INFO	Listening on 127.0.0.1:55507
+1649105022236	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55508" "-no-remote" "-profile" "C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofilebhYLBT"
+1649105022433	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofilebhYLBT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55508/devtools/browser/4991bd6c-d231-48d4-9e4e-08d28b1f3100
+1649105023899	Marionette	INFO	Listening on port 55544
+1649105024287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649105024288	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","socksProxy":"127.0.0.1:9050","socksVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+1649105034990	Marionette	INFO	Stopped listening on port 55544
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1649105046117	geckodriver	INFO	Listening on 127.0.0.1:55882
+1649105049163	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55883" "-no-remote" "-profile" "C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofile0jnIGa"
+1649105049358	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofile0jnIGa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55883/devtools/browser/b6bae201-f0e8-46f2-accf-5b997f1bf456
+1649105050854	Marionette	INFO	Listening on port 55920
+1649105051212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649105051213	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","socksProxy":"127.0.0.1:9050","socksVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1649105248925	Marionette	INFO	Stopped listening on port 55920
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+sVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+1649105157442	Marionette	INFO	Stopped listening on port 57186
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649105218751	geckodriver	INFO	Listening on 127.0.0.1:58280
+1649105221798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58281" "-no-remote" "-profile" "C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileXdpMwe"
+1649105221992	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileXdpMwe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58281/devtools/browser/c5c5b2d7-d99c-4b23-b05f-6f2cc7cc6b12
+1649105223511	Marionette	INFO	Listening on port 58314
+1649105223829	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649105223830	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","socksProxy":"127.0.0.1:9050","socksVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+1649105249683	Marionette	INFO	Stopped listening on port 58314
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649105261114	geckodriver	INFO	Listening on 127.0.0.1:58805
+1649105264168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58806" "-no-remote" "-profile" "C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileENnatc"
+1649105264367	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileENnatc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58806/devtools/browser/246c1490-7cdc-4696-a00b-b7f8d7957519
+1649105265910	Marionette	INFO	Listening on port 58844
+1649105266206	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649105266207	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","socksProxy":"127.0.0.1:9050","socksVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+1649105285368	Marionette	INFO	Stopped listening on port 58844
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649105301589	geckodriver	INFO	Listening on 127.0.0.1:59330
+1649105304634	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59331" "-no-remote" "-profile" "C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileuVWs6u"
+1649105304825	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileuVWs6u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59331/devtools/browser/4e14e1a8-b706-4147-8cd2-1a1591362625
+1649105306296	Marionette	INFO	Listening on port 59363
+1649105306687	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649105306688	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","socksProxy":"127.0.0.1:9050","socksVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+1649105353335	Marionette	INFO	Stopped listening on port 59363
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 21848, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1649105366038	geckodriver	INFO	Listening on 127.0.0.1:60052
+1649105369076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60053" "-no-remote" "-profile" "C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileVe8A3N"
+1649105369262	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileVe8A3N\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60053/devtools/browser/1f7a2907-67a2-4810-89ff-16877ef47e8e
+1649105370789	Marionette	INFO	Listening on port 60087
+1649105371118	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649105371119	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","socksProxy":"127.0.0.1:9050","socksVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1649105417081	Marionette	INFO	Stopped listening on port 60087
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649105466094	geckodriver	INFO	Listening on 127.0.0.1:50153
+1649105469146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50154" "-no-remote" "-profile" "C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileDtMsBI"
+1649105469339	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lulll\\AppData\\Local\\Temp\\rust_mozprofileDtMsBI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50154/devtools/browser/b3560a79-51ce-4fcc-b457-69d2e87bae1d
+1649105470940	Marionette	INFO	Listening on port 50186
+1649105471205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649105471206	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","socksProxy":"127.0.0.1:9050","socksVersion":5}
+JavaScript warning: https://www.redditstatic.com/accountmanager/register.b400a8d9c383e500ab6a.js, line 1: unreachable code after return statement
+1649105477320	Marionette	INFO	Stopped listening on port 50186
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

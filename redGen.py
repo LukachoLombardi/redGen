@@ -24,35 +24,30 @@ capabilities = webdriver.DesiredCapabilities.FIREFOX
 proxy.add_to_capabilities(capabilities)
 
 
-def generate_accounts(amount: int, base_name: str, password: str):
-    names = []
-    try:
-        subprocess.call("start " + os.getcwd() + "\\tor\\Tor\\tor.exe --defaults-torrc " +
-                        os.getcwd() + "\\Tor\\Tor\\torrc", shell=True)
-        time.sleep(5)
-        controller = Controller.from_port(port=9051)
-        controller.authenticate("Passwort")
-        print("Successfully connected to tor!")
+def generate_accounts(name: str, password: str):
+    subprocess.call("start " + os.getcwd() + "\\tor\\Tor\\tor.exe --defaults-torrc " +
+                    os.getcwd() + "\\Tor\\Tor\\torrc", shell=True)
+    time.sleep(5)
+    controller = Controller.from_port(port=9051)
+    controller.authenticate("Passwort")
+    print("Successfully connected to tor!")
+    controller.signal(Signal.NEWNYM)
+    print("New Tor connection processed")
 
-        for i in range(amount):
-            controller.signal(Signal.NEWNYM)
-            print("New Tor connection processed")
+    driver = webdriver.Firefox(executable_path=GeckoDriverManager().install(), desired_capabilities=capabilities)
 
-            driver = webdriver.Firefox(executable_path=GeckoDriverManager().install(), desired_capabilities=capabilities)
+    driver.get("https://reddit.com/register")
+    email_field = driver.find_element(By.ID, "regEmail")
+    email_field.send_keys("mail@mail.com")
+    email_field.send_keys(Keys.ENTER)
 
-            driver.get("https://reddit.com/register")
-            email_field = driver.find_element(By.ID, "regEmail")
-            email_field.send_keys("mail@mail.com")
-            email_field.send_keys(Keys.ENTER)
+    username_field = driver.find_element(By.ID, "regUsername")
 
-            username_field = driver.find_element(By.ID, "regUsername")
+    username_field.send_keys(name)
 
-            username_field.send_keys(base_name + str(i))
+    password_field = driver.find_element(By.ID, "regPassword")
+    password_field.send_keys(password)
 
-            password_field = driver.find_element(By.ID, "regPassword")
-            password_field.send_keys(password)
+    WebDriverWait(driver, 360).until(EC.presence_of_element_located((By.ID, "SearchDropdown")))
 
-            WebDriverWait(driver, 360).until(EC.presence_of_element_located((By.ID, "SearchDropdown")))
-            driver.quit()
-    finally:
-        return names
+    print("created", name)
